@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Local data and outputs
+data/
+uploads/
+outputs/
+logs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups and database files
+backups/
+*.sql
+*.dump
+*.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variants
+.env.*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
